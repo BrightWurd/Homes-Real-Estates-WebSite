@@ -1,0 +1,4 @@
+Color code for Homes 
+#EDE3DB Light
+#947C7O Medium
+#4O2E2A Dark
