@@ -1471,13 +1471,12 @@ a {
   width: 100%;
   transition: all 0.5 ease-in;
 }
-
-#the-loc-top-section-main-image-1 img {
+.loc-main-image-placeholder img {
   transition: opacity 0.4s ease; /* smooth fade */
   opacity: 1;
 }
 
-#the-loc-top-section-main-image-1 img.fade {
+.loc-main-image-placeholder img.fade {
   opacity: 0;
 }
 
