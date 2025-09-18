@@ -95,7 +95,12 @@ a {
 
 .menu-btn {
   display: none;
-  background-color: #402e2a;
+  background-color: #402e2a97;
+}
+
+.lucide-menu {
+  stroke: #ffffff;
+  stroke-width: 4px;
 }
 
 .the-nav-links-container-contact-btn {
@@ -588,25 +593,24 @@ a {
   display: flex;
   justify-content: start;
   width: 200px;
-  font-weight: 500;
-  background-color: #1815155b;
-  color: #000;
+  font-weight: 300;
+  background-color: #18151573;
+  color: #ffffff;
   border-radius: 20px;
   padding: 10px;
 }
-.lucide {
-  stroke: #000;
-  margin-right: 10px;
+
+.ico {
+  margin-right: 15px;
 }
 
 #sideNav ul li .link:hover {
-  background-color: #000000cf;
+  background-color: #18151543;
   color: #ffffff;
 }
 
-#sideNav ul li .link:hover .lucide {
+#sideNav ul li .link:hover .ico {
   stroke: #ffffff;
-  margin-right: 10px;
 }
 
 @media (max-width: 400px) {
@@ -1363,7 +1367,6 @@ a {
 }
 
 .loc-hero-text-holder {
-  font-size: 5rem;
   margin: auto;
   display: flex;
   gap: 8px;
@@ -1375,8 +1378,12 @@ a {
   padding: 10px;
   width: 500px;
   min-height: 100px;
-  border-radius: 10px;
   font-family: monospace;
+}
+
+.loc-hero-text-holder h2 {
+  color: white;
+  font-size: 5rem;
 }
 
 .loc-hero-text-holder p {
